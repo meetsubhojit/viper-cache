@@ -19,7 +19,7 @@ func viperFetchesAndChecks(t *testing.T) {
 	if GetString("some_struct.first_field") != "some big string" {
 		t.Fatalf("some_struct.first_field should be 'some big string', got %v", GetString("some_struct.first_field"))
 	}
-	if GetFloat64("some_struct.second_field") != 100 {
+	if GetInt("some_struct.second_field") != 100 {
 		t.Fatalf("some_struct.second_field should be 100, got %v", GetInt("some_struct.second_field"))
 	}
 	if !GetBool("some_struct.third_field") {
