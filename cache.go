@@ -1,4 +1,4 @@
-package pkg
+package viper_cache
 
 import (
 	"time"
