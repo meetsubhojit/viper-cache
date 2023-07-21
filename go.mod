@@ -1,4 +1,4 @@
-module github.com/meetusbhojit/viper-cache
+module github.com/meetsubhojit/viper-cache
 
 go 1.20
 
